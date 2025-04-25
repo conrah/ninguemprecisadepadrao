@@ -20,7 +20,6 @@ p {
   margin: 10px 0;
 }
 
-/* Bloco com texto e imagem lado a lado */
 .conteudo {
   display: flex;
   align-items: flex-start;
