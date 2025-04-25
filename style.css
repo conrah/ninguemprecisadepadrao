@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 20px;
   text-align: justify;
+  background-color: #fff8fc;
 }
 
 header img {
@@ -11,18 +12,30 @@ header img {
 }
 
 h1 {
-  margin-top: 30px;
+  margin-top: 0;
   color: #6b1b9a;
 }
 
 p {
-  margin: 15px 0;
+  margin: 10px 0;
+}
+
+/* Bloco com texto e imagem lado a lado */
+.conteudo {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.texto {
+  flex: 1;
+  margin-right: 20px;
 }
 
 .imagens-laterais {
-  display: block;
-  margin-left: auto;
-  margin-right: 0;
   width: 200px;
-  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
